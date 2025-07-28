@@ -14,7 +14,7 @@ format:
     language:
       crossref-tbl-title: "표"
     mermaid:
-      theme: forest
+      theme: neutral
 
 bibliography: references.bib
 reference-location: margin
@@ -27,4 +27,7 @@ website:
     contents:
       - "index.ipynb"
       - "basic.ipynb"
+      - "object.ipynb"
+      - "commit.ipynb"
+      - "branch.ipynb"
       - "reference.ipynb"
