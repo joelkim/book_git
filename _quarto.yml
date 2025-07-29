@@ -26,8 +26,11 @@ website:
     search: true
     contents:
       - "index.ipynb"
+      - "command.ipynb"
+      - "repo.ipynb"
       - "basic.ipynb"
       - "object.ipynb"
       - "commit.ipynb"
       - "branch.ipynb"
+      - "merge.ipynb"
       - "reference.ipynb"
