@@ -62,3 +62,15 @@ div.markdown-render-header p {
 div.markdown-render-container {
   margin: 0em 1em 0em 1em;
 }
+
+
+
+div.cell div.sourceCode.cell-code pre.sourceCode.python code.sourceCode.python span[id]::before {
+   content: "$ ";
+}
+
+div.ansi-escaped-output pre {
+  line-height: 0.7em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}

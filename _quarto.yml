@@ -15,6 +15,25 @@ format:
       crossref-tbl-title: "표"
     mermaid:
       theme: neutral
+    include-in-header:
+      text: |
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+          const allOps = document.querySelectorAll(
+            'div.cell div.sourceCode.cell-code pre.sourceCode.python code span.op:first-of-type'
+          );
+          allOps.forEach(el => {
+            el.innerHTML = '';
+
+            // 새로운 span 엘리먼트 생성
+            const dollarSpan = document.createElement('span');
+            dollarSpan.textContent = '$ ';
+
+            // el 요소의 부모 노드에 el 앞에 dollarSpan 삽입
+            //el.parentNode.parentNode.insertBefore(dollarSpan, el.parentNode);
+          });
+        });
+        </script>
 
 bibliography: references.bib
 reference-location: margin
