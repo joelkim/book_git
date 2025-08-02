@@ -63,14 +63,26 @@ div.markdown-render-container {
   margin: 0em 1em 0em 1em;
 }
 
+div.cell div.cell-output.cell-output-stdout {
+  font-family: 'D2Coding';
+  margin-top: -1em;
+  padding-top: 0.9em;
+  padding-left: 0.8em;
+  padding-bottom: -2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+}
 
+div.cell div.sourceCode.cell-code {
+  border-radius: 0em;
+}
 
-div.cell div.sourceCode.cell-code pre.sourceCode.python code.sourceCode.python span[id]::before {
+div.cell div.sourceCode.cell-code pre.sourceCode.python code.sourceCode.python span.bash_prompt::before {
    content: "$ ";
 }
 
 div.ansi-escaped-output pre {
-  line-height: 0.7em;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
+  line-height: 0.6rem;
+  padding: 0.2em 0.25rem 0.125rem 0.25rem;
 }
