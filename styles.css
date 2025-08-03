@@ -66,6 +66,7 @@ div.markdown-render-container {
 div.cell div.cell-output.cell-output-stdout {
   font-family: 'D2Coding';
   margin-top: -1em;
+  margin-bottom: 1em;
   padding-top: 0.9em;
   padding-left: 0.8em;
   padding-bottom: -2em;
