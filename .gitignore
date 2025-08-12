@@ -173,7 +173,6 @@ cython_debug/
 /.quarto/
 _site/
 site_libs/
-figs/
 *_files/
 _extensions/
 

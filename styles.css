@@ -87,3 +87,5 @@ div.ansi-escaped-output pre {
   line-height: 0.6rem;
   padding: 0.2em 0.25rem 0.125rem 0.25rem;
 }
+
+.quarto-figure { margin: 2rem 0; }

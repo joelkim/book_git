@@ -13,6 +13,7 @@ format:
     monofont: D2Coding
     language:
       crossref-tbl-title: "표"
+    fig-cap-location: margin
     mermaid:
       theme: neutral
     include-in-header:
