@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
-@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-subset.css");
-@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-full.css");
-@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
+@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
 
 :root {
   --font-sans: 'Noto Sans KR', system-ui, -apple-system, 'Apple SD Gothic Neo',
