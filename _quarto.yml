@@ -7,18 +7,19 @@ format:
   html:
     toc: true
     css: styles.css
+    page-layout: full
     code-block-bg: true
     code-overflow: wrap
     code-line-numbers: false
     monofont: D2Coding
     language:
       crossref-tbl-title: "표"
-    fig-cap-location: margin
     mermaid:
       theme: neutral
     include-in-header:
       text: |
         <script type="text/javascript">
+        // !로 시작하는 파이썬 코드에서 ! 삭제
         document.addEventListener('DOMContentLoaded', () => {
           const allOps = document.querySelectorAll(
             'div.cell div.sourceCode.cell-code pre.sourceCode.python code span.op:first-of-type'
@@ -29,6 +30,16 @@ format:
               const dollarSpan = document.createElement('span');
               dollarSpan.classList.add('bash_prompt');
               el.parentNode.parentNode.insertBefore(dollarSpan, el.parentNode);
+            }
+          });
+          // || true 로 끝나는 bash 코드에서 || true 삭제
+          const allOrTrue = document.querySelectorAll(
+            'div.cell div.sourceCode.cell-code pre.sourceCode.bash code span:last-of-type'
+          );
+          allOrTrue.forEach(span => {
+            let text = span.textContent;
+            if (text.endsWith('|| true')) {
+              span.textContent = text.slice(0, -8);
             }
           });
         });

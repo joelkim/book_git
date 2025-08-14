@@ -1,0 +1,32 @@
+[user]
+	name = joelkim
+	email = kim.dohhyoung@gmail.com
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	excludesfile = /Users/joelkim/.gitignore_global
+	compression = 0
+	pager = cat
+	editor = vi
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/joelkim/.stCommitMsg
+[pager]
+	branch = false
+[http]
+	postBuffer = 500M
+	maxRequestBuffer = 100M
+[credential]
+	helper = store
+[diff]
+	renames = copies
