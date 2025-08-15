@@ -56,6 +56,7 @@ website:
     contents:
       - "index.ipynb"
       - "command.ipynb"
+      - "config.ipynb"
       - "repo.ipynb"
       - "basic.ipynb"
       - "object.ipynb"

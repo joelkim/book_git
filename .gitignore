@@ -176,5 +176,10 @@ site_libs/
 *_files/
 _extensions/
 
+figs/*.tex
+figs/*.aux
+figs/*.log
+figs/*.pdf
+
 temp/
 lab/
