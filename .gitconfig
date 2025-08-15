@@ -1,6 +1,6 @@
 [user]
-	name = joelkim
-	email = kim.dohhyoung@gmail.com
+	name = user
+	email = user@company.com
 [init]
 	defaultBranch = main
 [filter "lfs"]
