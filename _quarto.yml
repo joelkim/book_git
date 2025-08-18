@@ -6,6 +6,7 @@ project:
 format:
   html:
     toc: true
+    toc-depth: 5
     css: styles.css
     page-layout: full
     code-block-bg: true
@@ -59,11 +60,13 @@ website:
       - "config.ipynb"
       - "repo.ipynb"
       - "basic.ipynb"
-      - "object.ipynb"
       - "log.ipynb"
+      - "object.ipynb"
       - "branch.ipynb"
       - "checkout.ipynb"
+      - "reflog.ipynb"
       - "reset.ipynb"
+      - "stash.ipynb"
       - "merge.ipynb"
       - "conflict.ipynb"
       - "remote_diverged.ipynb"
