@@ -183,3 +183,4 @@ figs/*.pdf
 
 temp/
 lab/
+test_*/
