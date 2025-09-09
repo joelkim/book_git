@@ -51,6 +51,7 @@ reference-location: margin
 
 website:
   title: "Git Book"
+  google-analytics: G-QGSN4T24D9
   sidebar:
     style: "docked"
     search: true
