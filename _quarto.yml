@@ -58,11 +58,11 @@ website:
     search: true
     contents:
       - "index.ipynb"
-      - "command.ipynb"
       - section: "사용자용 기초"
         contents:
-        - "config.ipynb"
+        - "git_command.ipynb"
         - "repo.ipynb"
+        - "config.ipynb"
         - "basic.ipynb"
         - "internal.ipynb"
         - "commit.ipynb"
@@ -81,3 +81,6 @@ website:
       - section: "부록"
         contents:
         - "reference.ipynb"
+
+filters:
+  - site-toc.lua
