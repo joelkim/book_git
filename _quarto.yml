@@ -65,7 +65,7 @@ website:
         - "config.ipynb"
         - "basic.ipynb"
         - "internal.ipynb"
-        - "commit_analysis.ipynb"
+        - "view.ipynb"
         - "branch.ipynb"
         - "checkout.ipynb"
         - "reset.ipynb"
