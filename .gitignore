@@ -188,3 +188,5 @@ figs/*.pdf
 temp/
 lab/
 test_*/
+
+**/*.quarto_ipynb
