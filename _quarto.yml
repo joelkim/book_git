@@ -60,6 +60,7 @@ website:
       - "index.ipynb"
       - section: "사용자용 기초"
         contents:
+        - "intro.ipynb"
         - "git_command.ipynb"
         - "repo.ipynb"
         - "config.ipynb"
@@ -77,7 +78,9 @@ website:
         - "cowork.ipynb"
       - section: "관리자용 고급"
         contents:
+        - "gitfile.ipynb"
         - "indexfile.ipynb"
+        - "pack.ipynb"
       - section: "부록"
         contents:
         - "reference.ipynb"
